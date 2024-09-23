@@ -1,7 +1,7 @@
-:root{
-    --dark-1:#181818;
+:root {
+    --dark-1: #181818;
     --dark-2: #474747;
-    --dark-3:#757575;
+    --dark-3: #757575;
 }
 
 
@@ -140,7 +140,7 @@ nav a {
     border: 1px solid #000;
     background-color: #FFF;
     padding: 10px;
-   
+
 }
 
 .about-title {
@@ -168,7 +168,8 @@ nav a {
     font-size: 20px;
     font-weight: 400;
 }
-.p-info .p-desc{
+
+.p-info .p-desc {
     color: var(--dark-2);
     font-size: 20px;
     font-weight: 700;
@@ -184,17 +185,19 @@ nav a {
 
 
 /* What I Do section starts */
-.what-i-do{
+.what-i-do {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-.what-i-do h3{
-    color:var(--dark-1);
+
+.what-i-do h3 {
+    color: var(--dark-1);
     font-size: 35px;
     font-weight: 700;
 }
-.what-i-do h4{
+
+.what-i-do h4 {
     padding-top: 30px;
     text-align: center;
     color: var(--dark-3);
@@ -202,21 +205,110 @@ nav a {
     font-weight: 400;
     width: 909px;
 }
+
 /* What I Do section end */
 
 
 /* Skills Section Starts */
 
-.skills-container{
+.skills-container {
     margin: 50px 230px 130px;
     display: flex;
     gap: 24px;
 }
-.skills-container .skills-card .skills-desc>h3{
-    padding-bottom: 20px;
+
+.skills-container .skills-card {
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+    padding: 20px;
 }
+
+.skills-container .skills-card img {
+    margin-left: 10px;
+    margin-top: 15px;
+}
+
+.skills-container .skills-card .skills-desc {
+    margin: 30px 10px;
+}
+
+.skills-container .skills-card .skills-desc h3 {
+    margin-bottom: 20px;
+    color: var(--dark-1);
+    font-size: 20px;
+    font-weight: 700;
+
+}
+
+.skills-container .skills-card .skills-desc p {
+    color: var(--dark-3);
+    font-size: 16px;
+    font-weight: 400;
+
+}
+
 
 /* Skills Section Ends */
 
+/* Summary Section Starts */
+.resume-summary-container {
+    max-width: 960px;
+    margin: 50px auto;
+    padding: 20px;
+}
 
+.resume-summary-container h3 {
+    text-align: center;
+    margin-bottom: 113px;
+    color: var(--dark-1);
+    font-size: 35px;
+    font-weight: 700;
+}
+.resume-summary-container .btn-primary{
+    margin:50px 350px 113px;
+}
+.resume-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+}
 
+.education-summary h4,
+.experience-summary h4 {
+    color: var(--dark-2);
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+.education-summary div,
+.experience-summary div {
+    max-width: 1600px;
+    max-width: 4256px;
+    margin-bottom: 20px;
+    padding: 15px 15px 15px 0px;
+    border-bottom: 1px solid #D1D1D1;
+}
+
+.summary-title {
+    color: var(--dark-2);
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.summary-institution {
+    color: var(--dark-3);
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.summary-desc {
+    color: var(--dark-3);
+    font-size: 16px;
+    font-weight: 400;
+}
+
+/* Summary Section Ends */
